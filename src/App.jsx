@@ -20,7 +20,7 @@ const App = () => {
 
   return (
     <section className="menu">
-      <Title text="our menu" />
+      <Title text="Our Menu" />
       <Categories categories={allCategories} filterItems={filterItems} />
       <Menu items={menuItems} />
     </section>
